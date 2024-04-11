@@ -84,3 +84,16 @@ This graph displays the predicted ratings using linear regression using with cac
 
 <img width="683" alt="Screenshot 2024-04-11 at 3 42 56 PM (2)" src="https://github.com/adityakmehrotra/Cocoa-Percentage-vs-Rating/assets/24847438/60302638-6153-487b-9464-54d345fe44ab">
 
+
+**Confidence Interval**
+
+The 95% confidence interval for our slope is: 
+
+We are 95% confident that the true slope lies between -0.01434028 and -0.008326993.
+
+**Correlation Coefficient**
+
+The correlation coefficient for cacao percentage and ratings is calculated to measure the strength and direction of the linear relationship.
+
+The negative sign indicates an inverse relationship between cacao percentage and rating– as cacao percentage increases, the rating seems to decrease. However, the magnitude of the correlation coefficient is only 0.14, suggesting that cacao percentage is not a strong predictor of a chocolate’s rating.
+
