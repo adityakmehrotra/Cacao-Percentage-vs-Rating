@@ -16,3 +16,27 @@ While higher cacao percentage is predicted to lead to a lower chocolate rating, 
 This dataset includes 2,600 ratings of plain (non-flavored) chocolate bars produced by chocolate manufacturers around the world. The ratings are conducted by the Manhattan Chocolate society, who conduct research on chocolate production in order to produce innovative, high quality chocolate.
 
 In the original Chocolate dataset, 7 variables are mentioned: REF (manufacturing number), Company (Manufacturer) Name, Company Location, Review Date, Country of Bean Origin, Specific Bean Origin or Bar Name, Cacao Percentage, Ingredients, Most Memorable Characteristics, and Rating. For the purposes of our study, we will consider 2 of the 7 variables: **Cacao Percentage, and Rating.**
+
+#### Data Collection
+
+##### Rating Column
+
+Each row in the dataset represents one rating for one brand of chocolate bar. Ratings were conducted by members of the Manhattan Chocolate Society, comprising of chocolate authors, makes, and experts--people involved in the chocolate industry for an extensive amount of years. Ratings were conducted on a five point scale:
+
+**1.0 - 1.9: Unpleasant**
+
+**2.0 - 2.9: Disappointing** 
+
+**3.0 - 3.49: Recommended**
+
+**3.5 - 3.9: Highly Recommended**
+
+**4.0 - 5.0 : Outstanding**
+
+To determine the rating, the below factors were considered:
+
+**Flavor:** How intense the cacao tastes (mild-moderate-strong), the roast of the chocolate,       dominant ingredients (cacao, sugar, butter) or if the ingredients are balanced, the             profile (floral, fruity, herby, smokey notes), and bitterness (mild-moderate-strong)
+
+**Texture:** a higher quality chocolate will have a creamier, more even consistency, whereas       a lower quality chocolate will be more gritty, waxy, and dry
+
+**Aftermelt:** the lasting experience/taste of the chocolate after it has melted in your mouth. A higher quality chocolate will have a longer lasting pleasant flavor, whereas lower quality chocolate not have as long lasting of an aftertaste and possibly leave an astringent, or acidic by-product.
