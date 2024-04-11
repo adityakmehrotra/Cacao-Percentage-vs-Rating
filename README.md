@@ -97,3 +97,48 @@ The correlation coefficient for cacao percentage and ratings is calculated to me
 
 The negative sign indicates an inverse relationship between cacao percentage and rating– as cacao percentage increases, the rating seems to decrease. However, the magnitude of the correlation coefficient is only 0.14, suggesting that cacao percentage is not a strong predictor of a chocolate’s rating.
 
+**Validity of the Linear Regression**
+
+When predicting chocolate ratings from cacao percentage, is linear regression an accurate way to model the data? The residual plot below offers insight into whether linear regression is a good measure of the relationship between cacao percentage and chocolate ratings:
+
+<img width="917" alt="Screenshot 2024-04-11 at 3 46 48 PM (2)" src="https://github.com/adityakmehrotra/Cocoa-Percentage-vs-Rating/assets/24847438/c5aaf13f-e7f6-4c2a-b805-6d8922988a70">
+
+
+<img width="684" alt="Screenshot 2024-04-11 at 3 46 49 PM (2)" src="https://github.com/adityakmehrotra/Cocoa-Percentage-vs-Rating/assets/24847438/dd11303a-d42c-4306-8130-a8aae8923718">
+
+
+When judging off of the residuals, it appears that this is not a bad linear regression model, there is relatively consistent distribution and spacing of points on either side of the line at 0.
+
+
+**Assumptions for Linear Regression**
+
+The residual plot suggest evidence that the homoscedasiticity and linearity assumption has been met. However, the Q-Q plot suggests that we may not be able to assume normality. 
+
+## Discussion
+
+>Through our analysis, a p-value of 1.935e-13 was obtained. Since the p-value is below the alpha level of 0.05, this finding is statisticially significant and we reject the null hypothesis. our findings conclude that cacao percentage does affect chocolate rating. Using a linear regression model, it is predicted that for every 1 percentage point increase in cacao percentage, rating will decrease by 0.01134 ($\beta_1$ = -0.011334). Based on our 95% confidence interval of -0.01434028 to -0.008326993,  we are  95% confident that the true slope lies between these two values. The correlation coefficient between cacao percentage and chocolate rating is -0.14, indicating a weak inverse linear relationship between the two. Contradictory to our initial question, our results state that higher cacao percentage actually leads to lower ratings.
+
+### Shortcomings of Our Analysis
+Since the ratings of chocolate are in part due to the personal taste preferences of each judge, our analysis could not account for this possible confounding factor. In addition, other variables we did not analyze such as the 'notable characteristics' column and ingredients could have affected chocolate ratings in addition to cacao percentage. It is also important to note that different types of cacao beans are used depending on the location of chocolate manufactuer. Even then, different harvesting and bean roasting processes affect the cacao taste and quality and thus the overall taste of the chocolate bar. These are not reflected in the dataset. These shortcomings pave the way for future questions to analyze.
+
+### Potential Future Directions
+**Questions:**
+
+How might the climate of the regions affect bean production and thus bean quality?
+
+How can the location of the chocolate company or bean origin have a significant impact on ratings?
+
+How might different types of cacao beans affect chocolate bar rating?
+    
+**New data to collect to refine our understanding:**
+
+The ratio of the ingredients listed for each bar could be collected to better understand the effect of ingredients and their added amount on ratings for chocolate taste. It would also be interesting to collect the price of each chocolate bar and examine if more expensive chocolate receives higher ratings. One more factor could be the type of bean used for chocolate– forastero, criollo, and trinitario are the most commonly used types of bean in the chocolate tried by the Manhattan Chocolate Society. Further exploration of our question could include seeing how the combination of bean type and cacao percentage affects the rating. 
+    
+
+### References
+
+Source of Data:
+^[https://flavorsofcacao.com/chocolate_database.html]
+
+Introduction:
+^[https://theochocolate.com/blog/understanding-cocoa-percentages/]
