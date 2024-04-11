@@ -77,3 +77,10 @@ The slope is **$\beta_1$ = -0.011334**; for every 1 percentage point increase in
 
 The graph below models the relation between cacao percentage and chocolate rating using linear regression:
 
+<img width="686" alt="Screenshot 2024-04-11 at 3 42 54 PM (2)" src="https://github.com/adityakmehrotra/Cocoa-Percentage-vs-Rating/assets/24847438/ed9ccc33-7281-4f8d-bd1c-cb40576f36ca">
+
+
+This graph displays the predicted ratings using linear regression using with cacao percentage as the predictor. At 50%, 75%, and 90% cacao percentage, a red, orange, and purple dot marks their predicted rating:
+
+<img width="683" alt="Screenshot 2024-04-11 at 3 42 56 PM (2)" src="https://github.com/adityakmehrotra/Cocoa-Percentage-vs-Rating/assets/24847438/60302638-6153-487b-9464-54d345fe44ab">
+
