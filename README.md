@@ -138,7 +138,7 @@ The ratio of the ingredients listed for each bar could be collected to better un
 ### References
 
 Source of Data:
-^[https://flavorsofcacao.com/chocolate_database.html]
+[https://flavorsofcacao.com/chocolate_database.html]
 
 Introduction:
-^[https://theochocolate.com/blog/understanding-cocoa-percentages/]
+[https://theochocolate.com/blog/understanding-cocoa-percentages/]
