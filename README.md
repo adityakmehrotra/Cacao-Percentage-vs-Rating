@@ -40,3 +40,26 @@ To determine the rating, the below factors were considered:
 **Texture:** a higher quality chocolate will have a creamier, more even consistency, whereas       a lower quality chocolate will be more gritty, waxy, and dry
 
 **Aftermelt:** the lasting experience/taste of the chocolate after it has melted in your mouth. A higher quality chocolate will have a longer lasting pleasant flavor, whereas lower quality chocolate not have as long lasting of an aftertaste and possibly leave an astringent, or acidic by-product.
+
+##### Cacao Percentage
+
+Cacao percentage present in each chocolate bar was given by the manufacturer of that chocolate bar. The Manhattan Chocolate Society reviews chocolate from companies that are transparent about their production process.
+
+### Possible Counfounding Factors
+Since all the ratings of the chocolate bars were performed by members of the Manhattan Chocolate Society, their ratings are in part influenced by each member's subjective taste standards. Thus,
+the results of this study are only application to members of the society and not representative of the general population.
+
+### Our Objective
+In the rest of the report, we will analyze the relationship between cacao percentage and chocolate ratings using the provided dataset. Our primary question is whether the cacao percentage significantly influences the chocolate ratings. We will explore graphical representations, statistical analyses, and draw inferences based on the data.
+
+## Analysis
+
+To measure the relationship between cacao percentage and chocolate ratings, a simple linear model was constructed. 
+
+**Null hypothesis**: The percentage of cacao in a chocolate bar does not affect its ratings, the slope of the linear regression model will be 0.
+
+$H_0: \beta_1 = 0$ 
+
+**Alternative hypothesis** The percentage of cacao in a chocolate bar does affect its ratings, the slope of the linear regression model will not be 0.
+
+$H_a: \beta_1 \neq 0$
