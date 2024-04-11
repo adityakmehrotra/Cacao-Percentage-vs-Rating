@@ -56,6 +56,9 @@ In the rest of the report, we will analyze the relationship between cacao percen
 
 To measure the relationship between cacao percentage and chocolate ratings, a simple linear model was constructed. 
 
+<img width="914" alt="Screenshot 2024-04-11 at 3 39 39 PM (2)" src="https://github.com/adityakmehrotra/Cocoa-Percentage-vs-Rating/assets/24847438/05a05a59-8570-455c-b175-c6947c5d82b7">
+
+
 **Null hypothesis**: The percentage of cacao in a chocolate bar does not affect its ratings, the slope of the linear regression model will be 0.
 
 $H_0: \beta_1 = 0$ 
