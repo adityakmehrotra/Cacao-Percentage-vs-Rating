@@ -1,4 +1,4 @@
-# Cocoa-Percentage-vs-Rating
+# Cacao-Percentage-vs-Rating
 Using Machine Learning and Analysis to determine the relationship between the cacao percentage of a type of chocolate and its objective rating.
 
 ## Introduction
